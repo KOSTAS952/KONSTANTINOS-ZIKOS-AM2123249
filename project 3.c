@@ -151,9 +151,8 @@ void run_server() {
     close(server_fd);
 }
 
-
 CLIENT.c
-
+  
   // Client λειτουργία
 void run_client(int client_id) {
     int sock = 0;
